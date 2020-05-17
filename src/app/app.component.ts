@@ -15,7 +15,7 @@ export class AppComponent {
       address: '',
     })
   }
-  onSubmit(value) {
-    console.warn('Data submit', value);
+  onSubmit() {
+    console.log(this.tutInfo.value);
   }
 }
